@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Naufal Rizky Jaya Putra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #f4f4f4; /* Background halaman luar */
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+
+        /* Container utama kertas CV */
+        .cv-container {
+            background-color: white;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 40px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        /* Styling Header (Nama & Foto) */
+        .header-section {
+            margin-bottom: 20px;
+        }
+        .profile-img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            object-fit: cover;
+            /* Placeholder styling */
+            background-color: #ddd; 
+        }
+        .name-title h1 {
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 2.5rem;
+            color: #222;
+            margin-bottom: 5px;
+        }
+        .name-title h4 {
+            font-weight: 400;
+            color: #666;
+            font-size: 1.5rem;
+        }
+
+        /* Garis Pemisah */
+        hr.divider {
+            border-top: 2px solid #ddd;
+            margin-bottom: 30px;
+            opacity: 1;
+        }
+
+        /* Styling Judul Bagian (Kotak Abu-abu) */
+        .section-title {
+            background-color: #e9ecef; /* Warna abu-abu background judul */
+            padding: 8px 15px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+
+        /* Styling Konten Kiri & Kanan */
+        .contact-info p, .skill-list p, .software-list p {
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+        .contact-label {
+            font-weight: 700;
+            display: block;
+            color: #444;
+            font-size: 0.9rem;
+        }
+
+        /* Pengalaman Kerja */
+        .job-item {
+            margin-bottom: 25px;
+        }
+        .job-title {
+            font-weight: 700;
+            font-size: 1rem;
+        }
+        .job-date {
+            float: right;
+            color: #777;
+            font-size: 0.9rem;
+        }
+        .company-name {
+            font-weight: 600;
+            font-style: italic; /* Sedikit miring agar mirip */
+            margin-bottom: 5px;
+            color: #444;
+        }
+        .job-desc {
+            padding-left: 20px;
+            margin-bottom: 0;
+            font-size: 0.95rem;
+            color: #333;
+        }
+        .job-desc li {
+            margin-bottom: 5px;
+        }
+
+        .profile-text {
+            text-align: justify;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        /* Responsiveness adjustments untuk Mobile */
+        @media (max-width: 768px) {
+            .name-title h1 {
+                font-size: 2rem;
+                margin-top: 15px;
+            }
+            .job-date {
+                float: none;
+                display: block;
+                margin-bottom: 5px;
+            }
+            .cv-container {
+                padding: 20px;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container cv-container">
+        <div class="row header-section align-items-center">
+            <div class="col-md-4 text-center text-md-start">
+                <img src="Asset/WhatsApp Image 2025-12-14 at 16.00.00_864883f1.jpg" alt="Foto Profil" class="profile-img">
+            </div>
+            <div class="col-md-8 text-center text-md-start name-title">
+                <h1>Naufal Rizky Jaya Putra</h1>
+                <h4>S1 Informatika</h4>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <div class="row">
+            <div class="col-md-4">
+                
+                <div class="section-title">KONTAK</div>
+                <div class="contact-info mb-4">
+                    <p>
+                        <span class="contact-label">Whatsapp</span>
+                        +62 896 9696 9696
+                    </p>
+                    <p>
+                        <span class="contact-label">Linkedin</span>
+                        Naufal Rizky Jaya Putra
+                    </p>
+                    <p>
+                        <span class="contact-label">Email</span>
+                        naufalrizky.j.p@gmail.com
+                    </p>
+                    <p>
+                        <span class="contact-label">Domisili</span>
+                        JL Cempaka Raya, Kota Banjarmasin - 96969
+                    </p>
+                </div>
+
+                <div class="section-title">KEAHLIAN</div>
+                <div class="skill-list mb-4">
+                    <p>Ngoding</p>
+                    <p>Analis Data</p>
+                    <p>Energik</p>
+                    <p>Kreatif</p>
+                    <p>Pemecahan Masalah</p>
+                    <p>Komunikasi</p>
+                </div>
+
+                <div class="section-title">SOFTWARE</div>
+                <div class="software-list mb-4">
+                    <p>Microsoft Access</p>
+                    <p>C++</p>
+                    <p>NetBeans</p>
+                    <p>Crocclip</p>
+                    <p>Sisco Packet Tracer</p>
+                </div>
+
+                <div class="section-title">PENDIDIKAN</div>
+                <div class="education-item mb-4">
+                    <p style="font-weight: 700; margin-bottom: 2px;">S1 Informatika</p>
+                    <p style="margin-bottom: 2px;">Institut Teknologi PLN</p>
+                    <p style="color: #666; margin-bottom: 2px;">2024 - 2028</p>
+                    <p>IPK Akhir 3.96</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-8">
+                
+                <div class="section-title">PROFIL</div>
+                <p class="profile-text mb-4">
+                    Hallo, saya Jp lulusan S1 Informatika dari Institut Teknologi PLN. Saya memiliki pengalaman sebagai KOL Spesialist, dan terakhir saya memiliki pengalaman sebagai pelayan restaurant. Saya merupakan kandidat yang tergolong semangat dan bertanggung jawab dalam bekerja, selain itu saya juga merupakan kandidat yang aktif, energik, mudah beradaptasi, dan mampu bekerja dalam sistem target.
+                </p>
+
+                <div class="section-title">PENGALAMAN KERJA</div>
+                
+                <div class="job-item">
+                    <div>
+                        <span class="job-title">Waiters</span>
+                        <span class="job-date">2024 - 2026</span>
+                    </div>
+                    <div class="company-name">Resto Ikan Bakar Sedap Selera Rakyat</div>
+                    <ul class="job-desc">
+                        <li>Menyapa pelanggan yang datang</li>
+                        <li>Menyajikan buku menu dan memberikan informasi yang rinci terkait ingredients dan rekomendasi menu</li>
+                        <li>Menyiapkan meja dan peralatan makan</li>
+                        <li>Melakukan up-sell produk tambahan bila diperlukan</li>
+                        <li>Menerima pesanan makanan dengan tepat dan akurat</li>
+                        <li>Mengomunikasikan detail pesanan kepada kitchen crew</li>
+                    </ul>
+                </div>
+
+                <div class="job-item">
+                    <div>
+                        <span class="job-title">KOL</span>
+                        <span class="job-date">2019 - 2020</span>
+                    </div>
+                    <div class="company-name">Media Iklan Indonesia</div>
+                    <ul class="job-desc">
+                        <li>Mengelola komunikasi dan bangun hubungan yang baik dengan media, KOL, dan agensi pihak ketiga untuk kolaborasi bersama dalam kampanye</li>
+                        <li>Meneliti dan identifikasi KOL di berbagai platform digital untuk membangun brand experience yang kuat</li>
+                        <li>Menjangkau dan membangun jaringan KOL untuk berbagai kategori produk di media sosial</li>
+                        <li>Menerapkan kampanye engagement dengan berkoordinasi bersama KOL terkait persyaratan, timeline, dan hasil kerja mereka</li>
+                    </ul>
+                </div>
+
+                <div class="section-title">PELATIHAN KERJA</div>
+                <div class="job-item">
+                    <div>
+                        <span class="job-title">Peserta Public Speaking</span>
+                        <span class="job-date">2026</span>
+                    </div>
+                    <div class="company-name">PT Media Pelatihan Karirmu Indonesia</div>
+                    <p style="font-size: 0.95rem; margin-top: 5px;">Mengenal teknik perkenalan & cara berbicara agar terlihat lancar</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</html>
