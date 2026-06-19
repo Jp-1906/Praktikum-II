@@ -1,3 +1,15 @@
+# SIMEKA - Sistem Manajemen Event Kampus Berbasis Web
+
+SIMEKA (Sistem Manajemen Event Kampus) merupakan aplikasi berbasis web yang dikembangkan untuk membantu proses pengelolaan kegiatan kampus secara digital, terstruktur, dan terintegrasi. Sistem ini dirancang untuk mendukung berbagai aktivitas administrasi penyelenggaraan event, mulai dari pengelolaan data pengguna, kategori event, data kegiatan, peserta, pendaftaran, pembayaran, hingga penyusunan laporan yang dapat digunakan sebagai bahan evaluasi dan pengambilan keputusan.
+
+Dalam pelaksanaan kegiatan kampus, proses pendataan peserta, pencatatan pendaftaran, serta pengelolaan pembayaran sering kali masih dilakukan secara manual sehingga berpotensi menimbulkan kesalahan pencatatan, duplikasi data, dan kesulitan dalam monitoring kegiatan. Melalui SIMEKA, seluruh proses tersebut dapat dikelola dalam satu platform terpusat yang memudahkan pengelola event dalam melakukan pengawasan, pengolahan data, dan penyajian informasi secara lebih cepat, akurat, dan efisien.
+
+Selain menyediakan fitur manajemen data yang lengkap, SIMEKA juga dilengkapi dengan dashboard statistik dan laporan yang menampilkan informasi penting seperti jumlah event, jumlah peserta, jumlah pendaftaran, status pembayaran, pendapatan kegiatan, hingga statistik peserta berdasarkan program studi. Dengan demikian, sistem ini tidak hanya berfungsi sebagai media administrasi kegiatan kampus, tetapi juga sebagai sarana monitoring dan pelaporan yang mendukung pengelolaan event secara lebih profesional.
+
+Aplikasi ini telah dideploy secara daring dan dapat diakses melalui:
+
+🔗 **http://meka.page.gd**
+
 ## Fitur Utama & Dokumentasi Antarmuka
 
 ### 1. Dashboard Utama (`index.php`)
